@@ -47,6 +47,9 @@ README
 
 #>
 
+# To fix - The file C:\TfLDevOpsExercise\TfLExercise_v1\TfLExercise_v1.ps1 is not digitally signed.
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
 #1.	Read a setting from registry
 
 function GetRegSetting() {
